@@ -1,0 +1,374 @@
+/*********************Responsive **********************/
+
+
+
+/*********************Fin  Responsive **********************/
+
+/**********************Menu****************************/
+
+/* #headerContainer{
+    margin: 0%;
+    padding: 0%;
+} */
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+a
+{
+    text-decoration: none;
+}
+
+#headerContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+#menu1
+{
+    background-image: url(images/topMenuJumia.png);
+    width: 100%;
+    height: 60px;
+}
+#menu2
+{
+
+    width: 100%;
+    height: 45px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+#menu2_1
+{
+    width: 30%;
+    padding: 7px;
+
+
+}
+#menu2_2
+{
+    width: 60%;
+    word-spacing: 20px;
+    /* text-align: center; */
+    padding: 7px;
+
+
+}
+#menu3
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
+#lienMenu2_1
+{
+    color: chocolate;
+    
+}
+#lienMenu2_1:hover
+{
+    text-decoration:underline;
+    
+}
+
+#lienMenu2_2
+{
+    color: rgb(245, 110, 13);
+    
+}
+#lienMenu2_3
+{
+    color: rgb(165, 161, 161);
+}
+#lienMenu2_4
+{
+    color: gray;
+}
+#lienMenu2_3:hover
+{
+    color: blue;
+}
+#lienMenu2_4:hover
+{
+    color: rgb(245, 110, 13);
+}
+
+
+
+/*Mes icones**************************************/
+
+
+.icon
+{
+    border-radius: 50%;
+    width:25px;
+    height:25px;
+    
+
+    
+}
+
+/* .alignIcon
+{
+    
+} */
+/* #menu3
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+} */
+#recherche
+{
+    
+    width: 45%;
+    display: flex;
+   /*  margin-left: 10px; */
+    padding: 10px;
+    cursor: pointer;
+}
+#btnRecherche
+{
+    background-color: rgb(255, 170, 0);
+    padding: 12px;
+    border-radius: 7px;
+    color: white;
+    font-weight: bolder;
+    
+}
+.sousmenu1:hover
+{
+    color:  rgb(255, 170, 0);
+    /* Cursor : pointer; */
+
+}
+.sousMenu
+{
+    width: 10%;
+    padding: 10px;
+    /* display: flex; */
+
+} 
+
+
+/*******************Fin Menu********************************/
+/*******************Main principal**************************/
+
+#corp
+{
+    background-color: rgb(224, 214, 214);
+
+}
+#mainContainer
+{
+    margin: 18px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+
+
+/******** Conteneur Principal du div gauche********/
+#gauche
+{
+    background-color: white;
+    width: 18%;
+    margin: 5px;
+   
+    display: flex;
+    flex-direction: column;
+}
+
+/**************Conteur pricipal du div Centre****/
+.slide
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    width: 60%;
+    margin: 5px;
+}
+.slide img
+{
+    object-fit: cover;
+    width: 58%;
+    position: absolute;
+    opacity: 0;
+   
+}
+ .slide img.active
+ {
+    opacity: 1;
+ }
+
+ /*boutton défilement footer*/
+
+
+ .suivant, .precedent
+ {
+      /* font-size: 3rem;
+     position: absolute;
+     bottom:50%; 
+     transform: translateY(-50%);*/
+ 
+ 
+ 
+     cursor: pointer ;
+     top: 50%; 
+     width: auto;
+     padding: 16px;
+     margin-top: -22px;
+     color: black;
+     font-weight: bold;
+     font-size: 18px;
+     transition: 0.6s ease;
+     border-radius: 0 3px 3px 0;
+     display: flex;
+     align-items: center;
+     justify-items: center;
+     justify-content: center;
+ }
+ .suivant:hover, .precedent:hover {
+     background-color: gray;
+     height: 20px;
+     border-radius: 100%;
+     }
+ 
+ .suivant
+ {
+     right: 1rem;
+     cursor: pointer;
+ }
+ .precedent
+ {
+     left: 1rem;
+     cursor: pointer;
+ }
+ 
+
+/*boutton défilement*/
+
+
+
+/******Conteneur principal Du Div droit********/
+.policeLien, a
+{
+    /* text-decoration: none; */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 10px;
+    color: black;
+    
+
+
+}
+.policeLien:hover
+{
+    
+    color:  rgb(255, 170, 0);
+}
+
+#droit
+{
+    width: 18%;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+
+    
+    
+}
+.droit1
+{
+    background-color: white;
+    width: 99%;
+    height: 170px;
+    margin: 1%;
+}
+
+/*******************Fin Main Principal*********************/
+/*******************Pied de Page****************************/
+#pied
+{
+    display: flex;
+    background-color: white;
+
+}
+.footerContainer
+{
+    margin: 5px;
+    width: 20%;
+    height: 100px;
+    border-radius: 20%;
+}
+
+/***********Footer Défilant*********/
+
+footer
+{
+    margin-top: 20px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+#monForter
+{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+
+}
+
+footer img
+{
+    height: 110px;
+    margin: 0 auto;
+
+}
+
+.footer_Container
+{
+    overflow: auto;
+    white-space: nowrap;
+    background-color: white;
+
+}
+
+.imgFooter2
+{
+    display: none;
+}
+
+.btn1, .btn2
+{
+    background-color: transparent;
+    border: none;
+    max-height: 50px;
+    margin: auto 0;
+}
+
+.btn1:hover, .btn2:hover
+{
+    cursor: pointer;
+}
