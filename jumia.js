@@ -87,3 +87,16 @@ function afficherInput() {
                     tabInput.innerHTML= "Nom Prénom : " +saisie + "\n\nTéléphone : " + saisie1 + "\n\nEmail : " + saisie2 + "\n\nObjet : " + saisie3 + "\n\nMessage : " + saisie4;
                     console.table(tabInput); 
 } */
+
+
+function menuGauche(){
+    var tabMenuGauche = ["Télphone", "Maison et Bureau", "Produits de Bébé", "Article de Sprot", "Electroménages", "Informatique", "Mode", "Supermaché", "Autres"];
+    var policeLien = document.querySelectorAll(".policeLien");
+    var count = tabMenuGauche.length;
+
+    for (let i = 0; i < count; i++) {
+        
+        
+    }
+
+}
